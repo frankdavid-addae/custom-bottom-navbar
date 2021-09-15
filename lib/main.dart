@@ -157,7 +157,10 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
               ? Container(
                   height: 4.0,
                   width: 50.0,
-                  color: Colors.black,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(4.0),
+                    color: Colors.black,
+                  ),
                 )
               : Container(),
         ],
